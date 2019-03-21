@@ -4,6 +4,26 @@
 
 describe('Main', function(){
 
+    //roda uma vez, antes do bloco
+    before(function(){
+
+    });
+
+    //roda uma vez, depois do bloco
+    after(function(){
+
+    });
+
+    // roda todas as vezes, antes do bloco
+    beforeEach(function(){
+
+    });
+
+    // roda todas as vezes, depois de cada bloco
+    afterEach(function(){
+
+    });
+
     describe('Method A', function(){
         context('Case 1', function(){
 
